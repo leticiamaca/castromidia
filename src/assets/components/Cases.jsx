@@ -23,7 +23,7 @@ const CASES = [
     ],
   },
   {
-    tag: "Gráfica",
+    tag: "Clínica Odontológica",
     tagCor: "text-gold bg-gold/10",
     titulo: "Gráfica",
     sub: "Meta Ads · Lançamento",
@@ -63,7 +63,7 @@ const DEPOIMENTOS = [
 
 export default function Cases() {
   return (
-    <section id="cases" className="py-28 px-6">
+    <section id="cases" className="py-28 px-6 p-20">
       <div className="max-w-7xl mx-auto">
         {/* Header da seção */}
         <div className="text-center mb-14">

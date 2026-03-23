@@ -6,14 +6,14 @@ export default function Hero() {
     <>
       <section
         id="hero"
-        className="relative min-h-screen flex items-center justify-center pt-20 px-6"
+        className="relative min-h-screen flex items-center justify-center pt-20 p-20 px-6"
       >
         {/* ── Imagem do tabuleiro — DENTRO da section ── */}
         <div
           className="absolute inset-0 bg-center bg-cover"
           style={{
             backgroundImage: "url('/background.png')",
-            opacity: 0.2,
+            opacity: 0.5,
           }}
         />
         <div className="relative z-10 max-w-4xl mx-auto text-center">

@@ -40,7 +40,6 @@ html {
    Os componentes ficam transparentes em cima desse canvas.
    ─────────────────────────────────────────────────────────── */
 body {
-  padding: 12px;
   margin: 0;
   background-color: var(--black);
 
@@ -48,17 +47,17 @@ body {
      pequeno toque gold embaixo-direita — tudo fixo na viewport */
   background-image: radial-gradient(
       ellipse 55% 30% at 50% 5%,
-      rgba(201, 168, 76, 0.13) 0%,
+      rgba(201, 168, 76, 0.247) 0%,
       transparent 100%
     ),
     radial-gradient(
       ellipse 40% 25% at 10% 50%,
-      rgba(196, 137, 154, 0.09) 0%,
+      rgba(196, 137, 154, 0.315) 0%,
       transparent 100%
     ),
     radial-gradient(
       ellipse 35% 20% at 90% 80%,
-      rgba(201, 168, 76, 0.07) 0%,
+      rgba(201, 168, 76, 0.363) 0%,
       transparent 100%
     );
   background-attachment: fixed; /* garante continuidade ao rolar */

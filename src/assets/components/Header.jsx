@@ -31,7 +31,7 @@ export default function Header() {
         ${scrolled ? 'border-b border-gold/10' : 'border-b border-transparent'}`}
       // sem background-color: herda o canvas contínuo do body
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between p-20">
 
         {/* ── Logo ── */}
         <a href="#hero" className="flex items-center gap-2.5">

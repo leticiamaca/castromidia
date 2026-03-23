@@ -99,66 +99,78 @@ const SERVICES = [
 
 export default function Servicos() {
   return (
-    <section id="servicos" className="py-28 px-6">
-      <div className="max-w-7xl mx-auto">
-        {/* Header da seção */}
-        <div className="text-center mb-14">
-          <p className="font-body text-xs tracking-widest uppercase text-gold mb-2">
-            O que fazemos
-          </p>
-          <div className="divider" />
-          <h2 className="font-display text-4xl md:text-5xl font-bold">
-            Nossos <span className="text-gradient">Serviços</span>
-          </h2>
-        </div>
+    <>
+      <section id="servicos" className="relative py-28 px-6 overflow-hidden">
+        {/* ── Imagem de fundo ── */}
+        <div
+          className="absolute inset-0 bg-center md:bg-contain bg-cover"
+          style={{
+            backgroundImage: "url('/backgroundServicos.png')",
+            opacity: 0.3,
+          }}
+        />
 
-        {/* Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {SERVICES.map(({ cor, bg, bgHover, titulo, desc, icon }) => (
-            <div key={titulo} className="card rounded-2xl p-6 group">
-              <div
-                className={`w-11 h-11 rounded-xl ${bg} ${bgHover} transition-colors flex items-center justify-center mb-5`}
-              >
-                <svg
-                  className={`w-5 h-5 ${cor}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+        {/* ── Conteúdo na frente ── */}
+        <div className="relative z-10 max-w-7xl mx-auto">
+          {/* Header da seção */}
+          <div className="text-center mb-14">
+            <p className="font-body text-xs tracking-widest uppercase text-gold mb-2">
+              O que fazemos
+            </p>
+            <div className="divider" />
+            <h2 className="font-display text-4xl md:text-5xl font-bold">
+              Nossos <span className="text-gradient">Serviços</span>
+            </h2>
+          </div>
+
+          {/* Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {SERVICES.map(({ cor, bg, bgHover, titulo, desc, icon }) => (
+              <div key={titulo} className="card rounded-2xl p-6 group">
+                <div
+                  className={`w-11 h-11 rounded-xl ${bg} ${bgHover} transition-colors flex items-center justify-center mb-5`}
                 >
-                  {icon}
-                </svg>
+                  <svg
+                    className={`w-5 h-5 ${cor}`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    {icon}
+                  </svg>
+                </div>
+                <h3 className="font-display text-lg font-semibold text-gray-100 mb-2">
+                  {titulo}
+                </h3>
+                <p className="font-body text-sm text-gray-400 leading-relaxed">
+                  {desc}
+                </p>
               </div>
-              <h3 className="font-display text-lg font-semibold text-gray-100 mb-2">
-                {titulo}
-              </h3>
-              <p className="font-body text-sm text-gray-400 leading-relaxed">
-                {desc}
-              </p>
-            </div>
-          ))}
+            ))}
 
-          {/* Card CTA */}
-          <div className="rounded-2xl p-6 border border-gold/25 bg-gradient-to-br from-gold/10 via-transparent to-rose/8 flex flex-col justify-between">
-            <div>
-              <h3 className="font-display text-lg font-semibold text-gray-100 mb-2">
-                Pronto para crescer?
-              </h3>
-              <p className="font-body text-sm text-gray-400 leading-relaxed">
-                Diagnóstico gratuito das suas campanhas atuais — veja onde estão
-                as oportunidades perdidas.
-              </p>
+            {/* Card CTA */}
+            <div className="rounded-2xl p-6 border border-gold/25 bg-gradient-to-br from-gold/10 via-transparent to-rose/8 flex flex-col justify-between">
+              <div>
+                <h3 className="font-display text-lg font-semibold text-gray-100 mb-2">
+                  Pronto para crescer?
+                </h3>
+                <p className="font-body text-sm text-gray-400 leading-relaxed">
+                  Diagnóstico gratuito das suas campanhas atuais — veja onde
+                  estão as oportunidades perdidas.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/5511952992652"
+                target="_blank"
+                rel="noreferrer"
+                className="btn-gold mt-6 inline-block px-6 py-2.5 rounded-full font-body text-sm text-center"
+              >
+                Diagnóstico gratuito →
+              </a>
             </div>
-            <a
-              href="https://wa.me/5511952992652"
-              target="_blank"
-              rel="noreferrer"
-              className="btn-gold mt-6 inline-block px-6 py-2.5 rounded-full font-body text-sm text-center"
-            >
-              Diagnóstico gratuito →
-            </a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
