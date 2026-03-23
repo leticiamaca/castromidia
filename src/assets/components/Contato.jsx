@@ -6,7 +6,7 @@ import { WhatsAppIcon, InstagramIcon, EmailIcon } from './icons';
 const CANAIS = [
   {
     label: 'WhatsApp',
-    valor: '11 9 5299-2652',
+    valor: '11 96042-5773',
     href:  'https://wa.me/5511952992652',
     IconComponent: WhatsAppIcon,
     iconCor:  'text-green-400',
@@ -16,8 +16,8 @@ const CANAIS = [
   },
   {
     label: 'Instagram',
-    valor: '@castro_midia',
-    href:  'https://instagram.com/castro_midia',
+    valor: '@castro.midia',
+    href:  'https://www.instagram.com/castro.midia/',
     IconComponent: InstagramIcon,
     iconCor:  'text-rose',
     iconBg:   'bg-rose/10',

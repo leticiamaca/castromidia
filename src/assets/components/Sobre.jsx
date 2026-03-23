@@ -12,6 +12,8 @@ export default function Sobre() {
     <section id="sobre" className="py-28 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
+     
+
         {/* ── Texto ── */}
         <div>
           <p className="font-body text-xs tracking-widest uppercase text-gold mb-2">Sobre nós</p>
@@ -45,11 +47,18 @@ export default function Sobre() {
 
         {/* ── Card citação ── */}
         <div className="relative">
-          <div className="card rounded-2xl p-8 relative z-10">
+        <div
+      className="absolute inset-0 bg-center bg-contain"
+      style={{
+        backgroundImage: "url('/imagemSobre.jpg')",
+        opacity: 0.5,
+      }}
+    />
+          <div className="rounded-2xl p-8 relative z-10">
             <div className="text-4xl text-center mb-4 opacity-30 font-display">♟</div>
             <blockquote className="font-display text-2xl text-center text-gray-200 italic leading-relaxed mb-6">
-              "Não é só UI. É estratégia aplicada<br />
-              à <span className="text-gradient">decisão de compra.</span>"
+              "Não é só Marketing,<br /> É estratégia aplicada à <br />
+              <span className="text-gradient"> decisão de compra.</span>"
             </blockquote>
             <div className="flex items-center justify-center gap-3">
               <div className="w-9 h-9 rounded-full bg-gradient-to-br from-gold to-rose flex items-center justify-center text-black text-xs font-bold">
