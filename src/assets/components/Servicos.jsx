@@ -103,7 +103,7 @@ export default function Servicos() {
       <section id="servicos" className="relative py-28 px-6 overflow-hidden">
         {/* ── Imagem de fundo ── */}
         <div
-          className="absolute inset-0 bg-center md:bg-contain bg-cover"
+          className="absolute inset-0 bg-center bg-cover"
           style={{
             backgroundImage: "url('/backgroundServicos.png')",
             opacity: 0.3,
