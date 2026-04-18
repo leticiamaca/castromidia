@@ -28,7 +28,7 @@ export default function HeroSection() {
           </a>
 
           {/* Headline */}
-          <h1 className="font-display uppercase text-left tracking-wide leading-tight text-2xl p-7 mt-10 mb-10 md:text-3xl">
+          <h1 className="font-display uppercase text-left tracking-wide leading-tight text-2xl p-5  mt-5 md:text-3xl">
             <span className="text-white/90 block">
               Uma agência de marketing
             </span>
