@@ -101,14 +101,7 @@ export default function Servicos() {
   return (
     <>
       <section id="servicos" className="relative py-28 px-6 overflow-hidden">
-        {/* ── Imagem de fundo ── */}
-        <div
-          className="absolute inset-0 bg-center bg-cover"
-          style={{
-            backgroundImage: "url('/backgroundServicos.png')",
-            opacity: 0.3,
-          }}
-        />
+      
 
         {/* ── Conteúdo na frente ── */}
         <div className="relative z-10 max-w-7xl mx-auto">

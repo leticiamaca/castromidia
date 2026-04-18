@@ -35,12 +35,7 @@ export default function Header() {
 
         {/* ── Logo ── */}
         <a href="#hero" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-full border border-gold/50 flex items-center justify-center">
-            <span className="text-gradient font-display text-base leading-none">♟</span>
-          </div>
-          <span className="font-display text-lg font-semibold text-gradient tracking-wide">
-            Castro Mídia
-          </span>
+          <img src="../logo.png" alt="" className='h-5 w-auto' />
         </a>
 
         {/* ── Desktop nav ── */}
