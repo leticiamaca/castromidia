@@ -1,7 +1,7 @@
 // components/TestimonialsCarousel.jsx
 // Carrossel de imagens de depoimentos (prints do WhatsApp).
 // Sem background próprio — herda o tema global como Cases.jsx.
-
+import CTAWhatsapp from "./CTAWhatsapp";
 import { useState, useEffect, useCallback } from "react";
 
 /* ─── Adicione suas imagens aqui ────────────────────────────────────────────
@@ -160,9 +160,10 @@ export default function TestimonialsCarousel() {
                        active:scale-95 disabled:opacity-25 disabled:cursor-not-allowed"
           >
             ›
-          </button>
+          </button>  
+       
         </div>
-
+         <CTAWhatsapp />
       </div>
     </section>
   );
