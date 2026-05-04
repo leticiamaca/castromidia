@@ -1,6 +1,8 @@
 // components/Cases.jsx
 // Sem background próprio.
 
+import CTAWhatsapp from "./CTAWhatsapp";
+
 const CASES = [
   {
     tag: "Clínica de Fisioterapia",
@@ -38,9 +40,9 @@ const DEPOIMENTOS = [
   {
     texto:
       "Em 60 dias a Castro Mídia reduziu nosso custo por lead pela metade e triplicou o volume. Resultado que nunca tínhamos visto com outras agências.",
-    nome: "Sandro Goullart",
-    cargo: "CEO da TR CLINIC",
-    initials: "SG",
+    nome: "Cinthia Capito",
+    cargo: "CEO Escola Vagalume",
+    initials: "CC",
     gradiente: "from-gold to-gold-dark",
   },
   {
@@ -63,7 +65,7 @@ const DEPOIMENTOS = [
 
 export default function Cases() {
   return (
-    <section id="cases" className="py-28 px-6 p-20">
+    <section id="cases" className="px-6 py-28">
       <div className="max-w-7xl mx-auto">
         {/* Header da seção */}
         <div className="text-center mb-14">
@@ -72,8 +74,8 @@ export default function Cases() {
           </p>
           <div className="divider" />
           <h2 className="font-display text-4xl md:text-5xl font-bold">
-            O que nossos clientes{" "}
-            <span className="text-gradient">estão falando</span>
+            Resultados{" "}
+            <span className="text-gradient">que impactam</span>
           </h2>
         </div>
 
@@ -135,7 +137,9 @@ export default function Cases() {
             </div>
           ))}
         </div>
+        <CTAWhatsapp />
       </div>
+     
     </section>
   );
 }

@@ -1,6 +1,7 @@
 // components/Contato.jsx
 // Sem background próprio.
 
+import CTAWhatsapp from './CTAWhatsapp';
 import { WhatsAppIcon, InstagramIcon, EmailIcon } from './icons';
 
 const CANAIS = [
@@ -38,7 +39,7 @@ const CANAIS = [
 
 export default function Contato() {
   return (
-    <section id="contato" className="py-28 px-6 p-20">
+    <section id="contato" className="p-10 px-6">
       <div className="max-w-3xl mx-auto text-center">
 
         <p className="font-body text-xs tracking-widest uppercase text-gold mb-2">Entre em contato</p>
@@ -74,18 +75,6 @@ export default function Contato() {
             </a>
           ))}
         </div>
-
-        {/* CTA principal */}
-        <a
-          href="https://wa.me/5511952992652"
-          target="_blank"
-          rel="noreferrer"
-          className="btn-gold inline-flex items-center gap-2.5 px-10 py-4 rounded-full font-body text-sm tracking-wide"
-        >
-          <WhatsAppIcon className="w-4 h-4" />
-          Falar agora no WhatsApp
-        </a>
-
       </div>
     </section>
   );

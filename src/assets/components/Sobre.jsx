@@ -1,6 +1,8 @@
 // components/Sobre.jsx
 // Sem background — continua o canvas do body.
 
+import CTAWhatsapp from "./CTAWhatsapp";
+
 const DIFERENCIAIS = [
   {
     cor: "text-gold",
@@ -18,7 +20,7 @@ const DIFERENCIAIS = [
 
 export default function Sobre() {
   return (
-    <section id="sobre" className="py-28 px-6 p-20">
+    <section id="sobre" className="h-full py-20 px-6 bg-gradient-to-br from-stone-800 to-black">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* ── Texto ── */}
         <div>
@@ -96,6 +98,7 @@ export default function Sobre() {
           <div className="absolute -bottom-3 -left-3 w-14 h-14 border border-gold/15 rounded-xl  pointer-events-none" />
         </div>
       </div>
+      <CTAWhatsapp />
     </section>
   );
 }

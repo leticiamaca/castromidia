@@ -42,29 +42,26 @@ html {
 body {
   margin: 0;
   background-color: var(--black);
-
-  /* Iluminação ambiente: gold no topo-centro, rose no meio-esquerda,
-     pequeno toque gold embaixo-direita — tudo fixo na viewport */
-  background-image: radial-gradient(
-      ellipse 55% 30% at 50% 5%,
-      rgba(201, 168, 76, 0.247) 0%,
+  overflow-x: hidden;
+  
+  background-image:
+    /* Luz topo — centro */
+    radial-gradient(
+      ellipse 60% 35% at 50% 0%,
+      rgba(255, 187, 0, 0.082) 0%,
       transparent 100%
     ),
+    /* Luz fundo — centro */
     radial-gradient(
-      ellipse 40% 25% at 10% 50%,
-      rgba(196, 137, 154, 0.315) 0%,
-      transparent 100%
-    ),
-    radial-gradient(
-      ellipse 35% 20% at 90% 80%,
-      rgba(201, 168, 76, 0.363) 0%,
+      ellipse 60% 35% at 50% 100%,
+      rgba(201, 168, 76, 0.164) 0%,
       transparent 100%
     );
-  background-attachment: fixed; /* garante continuidade ao rolar */
-
+  
+ 
   color: #e0e0e0;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700; /* ou 800 */
+  font-weight: 700;
   -webkit-font-smoothing: antialiased;
 }
 

@@ -1,6 +1,9 @@
 // components/Servicos.jsx
 // Sem background próprio.
 
+import { WhatsAppIcon } from "./icons";
+
+
 const SERVICES = [
   {
     cor: "text-gold",
@@ -156,9 +159,10 @@ export default function Servicos() {
                 href="https://wa.me/5511952992652"
                 target="_blank"
                 rel="noreferrer"
-                className="btn-gold mt-6 inline-block px-6 py-2.5 rounded-full font-body text-sm text-center"
+                className="btn-gold mt-6 px-6 py-2.5 rounded-full font-body text-sm text-center flex justify-center gap-4"
               >
-                Diagnóstico gratuito →
+                 <WhatsAppIcon className="w-4" />
+                Diagnóstico gratuito
               </a>
             </div>
           </div>

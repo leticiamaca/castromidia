@@ -2,13 +2,15 @@
 // Componente raiz. Apenas orquestra as seções.
 // Nenhuma section define background — tudo herda o canvas do index.css.
 
-import Header  from './assets/components/Header';
-import Hero    from './assets/components/Hero';
-import Sobre   from './assets/components/Sobre';
-import Servicos from './assets/components/Servicos';
-import Cases   from './assets/components/Cases';
-import Contato from './assets/components/Contato';
-import Footer  from './assets/components/Footer';
+import Header from "./assets/components/Header";
+import Hero from "./assets/components/Hero";
+import Sobre from "./assets/components/Sobre";
+import Servicos from "./assets/components/Servicos";
+import Cases from "./assets/components/Cases";
+import Contato from "./assets/components/Contato";
+import Footer from "./assets/components/Footer";
+import TestimonialsCarousel from "./assets/components/Testimonialscarousel";
+
 
 export default function App() {
   return (
@@ -17,8 +19,10 @@ export default function App() {
       <main>
         <Hero />
         <Sobre />
+   
         <Servicos />
         <Cases />
+       <TestimonialsCarousel />
         <Contato />
       </main>
       <Footer />
