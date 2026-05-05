@@ -79,7 +79,7 @@ export default function TestimonialsCarousel() {
   );
 
   return (
-    <section id="depoimentos" className="px-6 bg-stone-900 min-h-screen p-20 flex flex-col justify-center">
+    <section id="depoimentos" className="px-6 min-h-screen p-20 flex flex-col justify-center">
       <div className="max-w-7xl mx-auto">
 
         {/* ── Header — idêntico ao Cases.jsx ──────────────────────────────── */}

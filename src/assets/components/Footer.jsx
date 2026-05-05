@@ -10,7 +10,7 @@ const NAV_LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gold/10 py-8 px-6 p-20">
+    <footer className="border-t border-gold/10 py-28 px-6 p-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-around gap-5">
 
         {/* Logo */}

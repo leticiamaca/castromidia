@@ -20,7 +20,7 @@ const DIFERENCIAIS = [
 
 export default function Sobre() {
   return (
-    <section id="sobre" className="h-full py-20 px-6 bg-gradient-to-br from-stone-800 to-black">
+    <section id="sobre" className="h-full py-20 px-6 bg-black">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* ── Texto ── */}
         <div>

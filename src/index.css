@@ -48,13 +48,13 @@ body {
     /* Luz topo — centro */
     radial-gradient(
       ellipse 60% 35% at 50% 0%,
-      rgba(255, 187, 0, 0.082) 0%,
+      rgba(255, 187, 0, 0.185) 0%,
       transparent 100%
     ),
     /* Luz fundo — centro */
     radial-gradient(
       ellipse 60% 35% at 50% 100%,
-      rgba(201, 168, 76, 0.164) 0%,
+      rgba(255, 187, 0, 0.13) 0%,
       transparent 100%
     );
   

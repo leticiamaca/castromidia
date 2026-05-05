@@ -10,8 +10,8 @@ const CASES = [
     titulo: "Clínica de Fisioterapia",
     sub: "Meta Ads · 3 meses",
     metricas: [
-      { valor: "4.2x", label: "ROAS", cor: "text-gradient" },
-      { valor: "-38%", label: "Custo por venda", cor: "text-rose" },
+      { valor: "+180%", label: "Leads gerados", cor: "text-gradient" },
+      { valor: "R$9,38", label: "Custo por lead", cor: "text-rose" },
     ],
   },
   {
@@ -21,7 +21,7 @@ const CASES = [
     sub: "Google + Meta Ads · 2 meses",
     metricas: [
       { valor: "+210%", label: "Leads gerados", cor: "text-gradient" },
-      { valor: "R$18", label: "Custo por lead", cor: "text-rose" },
+      { valor: "R$6,20", label: "Custo por lead", cor: "text-rose" },
     ],
   },
   {
@@ -30,8 +30,8 @@ const CASES = [
     titulo: "Gráfica",
     sub: "Meta Ads · Lançamento",
     metricas: [
-      { valor: "R$320k", label: "Faturamento", cor: "text-gradient" },
-      { valor: "6.8x", label: "ROAS", cor: "text-rose" },
+      { valor: "+150%", label: "Leads gerados", cor: "text-gradient" },
+      { valor: "R$7,45", label: "Custo por lead", cor: "text-rose" },
     ],
   },
 ];
@@ -65,7 +65,7 @@ const DEPOIMENTOS = [
 
 export default function Cases() {
   return (
-    <section id="cases" className="px-6 py-28">
+    <section id="cases" className="px-6 py-28 bg-stone-950">
       <div className="max-w-7xl mx-auto">
         {/* Header da seção */}
         <div className="text-center mb-14">
@@ -135,9 +135,10 @@ export default function Cases() {
                 </div>
               </div>
             </div>
-          ))}
+          ))}   
+          <CTAWhatsapp />
         </div>
-        <CTAWhatsapp />
+     
       </div>
      
     </section>

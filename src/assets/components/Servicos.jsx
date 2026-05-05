@@ -103,7 +103,7 @@ const SERVICES = [
 export default function Servicos() {
   return (
     <>
-      <section id="servicos" className="relative py-28 px-6 overflow-hidden">
+      <section id="servicos" className="relative py-28 px-6 overflow-hidden before:absolute before:inset-0 before:bg-[url('./background.png')] before:bg-cover before:bg-center before:opacity-30">
       
 
         {/* ── Conteúdo na frente ── */}

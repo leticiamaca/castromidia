@@ -39,7 +39,7 @@ const CANAIS = [
 
 export default function Contato() {
   return (
-    <section id="contato" className="p-10 px-6">
+    <section id="contato" className="p-10 px-6 py-28">
       <div className="max-w-3xl mx-auto text-center">
 
         <p className="font-body text-xs tracking-widest uppercase text-gold mb-2">Entre em contato</p>
