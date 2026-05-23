@@ -1,12 +1,76 @@
-# React + Vite
+## Castro Mídia - Landing Page 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page moderna e responsiva desenvolvida para apresentar os serviços de social media da Castro Mídia, com foco em conversão, identidade visual e experiência do usuário.
 
-Currently, two official plugins are available:
+A proposta do projeto foi criar uma presença digital profissional, utilizando estratégias de Call To Action (CTA), design alinhado ao manual da marca e uma navegação intuitiva para fortalecer a autoridade da marca no digital. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="./header.png"></img>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Tecnologias utilizadas
+React
+Tailwind CSS
+JavaScript
+Vite
+
+---
+
+### Objetivo do projeto
+
+O projeto foi desenvolvido pensando em:
+
+Fortalecer a identidade visual da marca
+Criar uma comunicação moderna e estratégica
+Melhorar a captação de clientes
+Destacar os serviços de social media
+Aplicar técnicas de marketing visual e conversão
+
+<img src="./results.png"></img>
+
+---
+
+### Responsividade
+
+A landing page foi construída com foco em responsividade, garantindo uma boa experiência em:
+
+Desktop
+Tablets
+Smartphones
+
+### Funcionalidades
+Sessões organizadas e estratégicas
+Botões de Call To Action
+Layout moderno e minimalista
+Design baseado no manual da marca
+Navegação fluida
+Estrutura otimizada para apresentação profissional
+
+---
+
+### Deploy
+O projeto está hospedado na Netlify:
+
+[Castro Mídia](https://castromidia.netlify.app/)
+
+---
+
+### Aprendizados
+
+Durante o desenvolvimento deste projeto foram trabalhados conceitos como:
+
+Componentização no React
+Estilização com Tailwind CSS
+Estruturação de landing pages
+Responsividade
+Hierarquia visual
+UX/UI Design
+Estratégias de conversão com CTA
+
+---
+
+<img src="./footer.png"></img>
+
+👩‍💻 Desenvolvido por
+
+Letícia Castro 💜
